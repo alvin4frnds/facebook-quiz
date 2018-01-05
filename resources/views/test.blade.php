@@ -2,7 +2,7 @@
 
 @section('content')
 	@include('partials/fb-sdk')
-	<article class="post-82 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized" id="post-82">
+	<article class="post-74 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized" id="post-74">
 	    <header class="entry-header">
 	        <h2 class="entry-title">
 	            What you should quit in 2018?
@@ -25,7 +25,7 @@
 	                </span>
 	            </span>
 	            <span class="edit-link">
-	                <a class="post-edit-link" href="http://fun2all.ml/wp-admin/post.php?post=82&action=edit">
+	                <a class="post-edit-link" href="http://fun2all.ml/wp-admin/post.php?post=74&action=edit">
 	                    Edit
 	                </a>
 	            </span>
@@ -35,7 +35,7 @@
 	    <!-- .entry-header -->
 	    <div class="entry-content">
 	        <!-- wp quiz -->
-	        <div class="wq_quizCtr single fb_quiz_quiz" data-ajax-url="http://fun2all.ml/wp-admin/admin-ajax.php" data-auto-scroll="1" data-correct-answered="0" data-current-question="0" data-excerpt="" data-featured-image="http://fun2all.ml/wp-content/uploads/2017/12/21-1.png" data-force-action="0" data-post-title="What you should quit in 2018?" data-question-layout="single" data-questions="1" data-questions-answered="0" data-quiz-pid="79" data-quiz-profile="user" data-retake-quiz="0" data-share-url="http://fun2all.ml/2017/12/25/what-you-should-quit-in-2018/" data-transition_in="fade" data-transition_out="fade">
+	        <div class="wq_quizCtr single fb_quiz_quiz" data-ajax-url="{{ url('quiz-result') }}" data-auto-scroll="1" data-correct-answered="0" data-current-question="0" data-excerpt="" data-featured-image="http://fun2all.ml/wp-content/uploads/2017/12/21-1.png" data-force-action="0" data-post-title="What you should quit in 2018?" data-question-layout="single" data-questions="1" data-questions-answered="0" data-quiz-pid="74" data-quiz-profile="user" data-retake-quiz="0" data-share-url="http://fun2all.ml/2017/12/25/what-you-should-quit-in-2018/" data-transition_in="fade" data-transition_out="fade">
 	            <div class="wq_quizProgressBarCtr">
 	                <!-- progress bar -->
 	                <div class="wq_quizProgressBarCtr" style="display:none">

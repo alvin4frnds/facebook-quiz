@@ -867,7 +867,8 @@
 					pid: quizElem.data( 'quiz-pid' ),
 					user: userInfo,
 					profile: quizElem.data( 'quiz-profile' ),
-					_nonce: wq_l10n.nonce
+					_token: window.Laravel.csrfToken
+					// _nonce: wq_l10n.nonce
 				};
 
 				$.post( quizElem.data( 'ajax-url' ), data, function( res ) {
